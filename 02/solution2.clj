@@ -33,12 +33,14 @@
 
 (defn score [line] (+ (shape-score (move-to-play line)) (outcome-score line)))
 
+(defn split-spaces [in]
+    (str/split in #" "))
 
-(def total_score 0)
+(defn total-score [rdr]
+    (->> (line-seq rdr)
+        (map split-spaces)
+        (map score)
+        (reduce +)))
 
 (with-open [rdr (reader "input.txt")]
-  (doseq [line (line-seq rdr)]
-    (def total_score (+ total_score (score (str/split line #" "))))
-    ))
-
-(println total_score)
+  (println (total-score rdr)))

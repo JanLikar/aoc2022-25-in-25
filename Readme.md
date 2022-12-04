@@ -1,9 +1,9 @@
 # 2022 Advent of Code - 25 days in 25 languages
 
-01 - Python
-02 - Clojure
-03 - Elixir
-04 - C
+- 01 - Python
+- 02 - Clojure
+- 03 - Elixir
+- 04 - C
 
 In each of the languages I tried to follow the best practices to the best of my knowledge.
 I am, however, familiar with only a handful of them, so don't hold it against me if I butchered them colossally.

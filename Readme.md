@@ -3,6 +3,7 @@
 01 - Python
 02 - Clojure
 03 - Elixir
+04 - C
 
 In each of the languages I tried to follow the best practices to the best of my knowledge.
 I am, however, familiar with only a handful of them, so don't hold it against me if I butchered them colossally.
@@ -24,12 +25,16 @@ Converting my first PoC, which looked fairly similar to what an imperative solut
 to a more idiomatic, functional solution was thoroughly rewarding.
 
 ### 3. Elixir
-In a way this felt like Clojure albeit with a different syntax.
+In a way this felt like Clojure with a different syntax.
 
 String handling was slightly awkward, but I am sure that's because I didn't take enough time
-to learn about Elixir string types.
+to learn about Elixir's string types.
 
 This task does not really allow Elixir's killer features to shine, but it was still a decent fit.
+
+### 4. C
+I haven't had the pleasere of using C in a long time, although it felt a bit like cheating to use
+it for such a simple task that would have been easy in any of the languages on my list (short of assembly). On the other hand, I would rather save the languages I am less familiar with for more interesting tasks.
 
 ## Future Ideas
 Bash
@@ -41,7 +46,6 @@ Haskell
 Elm
 Rust
 Go
-C
 C++
 Perl
 Julia

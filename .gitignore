@@ -1,0 +1,5 @@
+devenv.lock
+devenv.yaml
+devenv.nix
+.envrc
+.vscode/

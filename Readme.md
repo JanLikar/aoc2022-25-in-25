@@ -7,18 +7,27 @@
 - [05 - PHP](#5-php)
 - [06 - Kotlin](#6-kotlin)
 
-In each of the languages I tried to follow the best practices to the best of my knowledge.
-I am, however, familiar with only a handful of them, so don't hold it against me if I butchered them colossally.
+In each of the languages I tried to follow the best practices to
+the best of my knowledge and to succinctly solve the problem at
+hand.
+
+I am, however, familiar with only a handful of these languages, so
+don't hold it against me if I butcher them colossally.
 
 [AoC 2022](https://adventofcode.com/2022)
 
 ## 25 Days
 ### 1. Python
-I figured I would start with something I'm actually familiar with.
+Python is an excelent fit for solving tasks like these and
+I figured I should start with a language I'm actually familiar
+with.
+
+I used a generator to aggregate the lines and a couple of maps
+and reducers to calculate the results. In most cases I would
+prefer list comprehensions to using `map`, but in this case
+it fits perfectly.
 
 What can I say... Python is my primary language and I love it dearly, so this was not a challenge at all.
-
-Python is an excelent fit for solving tasks like these.
 
 [Task](https://adventofcode.com/2022/day/1)
 [Solution](01/)
@@ -28,7 +37,8 @@ As I don't have any real-world experience with lisps, I expected a decent Clojur
 
 I was pleasently surprised - Clojure proved extremely expressive and nice to work with.
 
-Converting my first PoC, which looked fairly similar to what an imperative solution would look like,
+Converting my first PoC, which looked fairly similar to
+what an imperative solution would look like,
 to a more idiomatic, functional solution was thoroughly rewarding.
 
 [Task](https://adventofcode.com/2022/day/2)
@@ -60,10 +70,12 @@ Its low barrier to entry showed me what programming is and opened me doors into 
 
 Solving this task, however, was no fun at all.
 
-Array and string handling is awkward, syntax sugar you would expect to have in a high-level programming language is simply missing,
+Array and string handling is awkward, syntax sugar you would
+expect in a high-level programming language is simply missing,
 semantics of some basic language constructs are unclear...
 
-Unless I was trying to cobble together a quick-and-dirty website I would actually prefer to use C over PHP.
+Unless I was trying to cobble together a quick-and-dirty web app
+I would actually prefer to use C over PHP.
 
 
 [Task](https://adventofcode.com/2022/day/5)

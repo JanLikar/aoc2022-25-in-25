@@ -5,6 +5,7 @@
 - [03 - Elixir](#3-elixir)
 - [04 - C](#4-c)
 - [05 - PHP](#5-php)
+- [06 - Kotlin](#6-kotlin)
 
 In each of the languages I tried to follow the best practices to the best of my knowledge.
 I am, however, familiar with only a handful of them, so don't hold it against me if I butchered them colossally.
@@ -68,6 +69,22 @@ Unless I was trying to cobble together a quick-and-dirty website I would actuall
 [Task](https://adventofcode.com/2022/day/5)
 [Solution](05/)
 
+### 6. Kotlin
+Like with Elixir, this task does not fully demonstrate
+Kotlin's killer features, but it was nonetheless a fun exercise.
+
+Kotlin seems like a great language for someone who likes to
+intertwine imperative, functional and object-oriented programming
+styles.
+
+It allowed me to implement the solution very concisely,
+especially after replacing the function to check for unique
+substrings with a very clever oneliner I borrowed from the
+internet.
+
+[Task](https://adventofcode.com/2022/day/6)
+[Solution](06/)
+
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
 
@@ -89,7 +106,6 @@ Ruby
 Lua
 Scheme
 Matlab
-Kotlin
 Swift
 R
 Fortran

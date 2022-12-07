@@ -1,0 +1,2 @@
+run:
+	nodejs solution.js

@@ -6,6 +6,7 @@
 - [04 - C](#4-c)
 - [05 - PHP](#5-php)
 - [06 - Kotlin](#6-kotlin)
+- [07 - Javascript](#7-javascript)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -29,7 +30,8 @@ it fits perfectly.
 
 What can I say... Python is my primary language and I love it dearly, so this was not a challenge at all.
 
-[Task](https://adventofcode.com/2022/day/1)
+[Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)
+
 [Solution](01/)
 
 ### 2. Clojure
@@ -41,7 +43,8 @@ Converting my first PoC, which looked fairly similar to
 what an imperative solution would look like,
 to a more idiomatic, functional solution was thoroughly rewarding.
 
-[Task](https://adventofcode.com/2022/day/2)
+[Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2)
+
 [Solution](02/)
 
 ### 3. Elixir
@@ -52,7 +55,8 @@ to learn about Elixir's string types.
 
 This task does not really allow Elixir's killer features to shine, but it was still a decent fit.
 
-[Task](https://adventofcode.com/2022/day/3)
+[Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3)
+
 [Solution](03/)
 
 ### 4. C
@@ -61,7 +65,8 @@ it for such a simple task that would have been easy in any of the languages on m
 
 Having said that, I would rather save the languages I am less familiar with for more interesting tasks.
 
-[Task](https://adventofcode.com/2022/day/4)
+[Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)
+
 [Solution](04/)
 
 ### 5. PHP
@@ -78,7 +83,8 @@ Unless I was trying to cobble together a quick-and-dirty web app
 I would actually prefer to use C over PHP.
 
 
-[Task](https://adventofcode.com/2022/day/5)
+[Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)
+
 [Solution](05/)
 
 ### 6. Kotlin
@@ -94,8 +100,28 @@ especially after replacing the function to check for unique
 substrings with a very clever oneliner I borrowed from the
 internet.
 
-[Task](https://adventofcode.com/2022/day/6)
+[Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)
+
 [Solution](06/)
+
+### 7. Javascript
+This one was a wild one.
+
+At first glance it seemed I could implement this in functional style,
+using immutable values, but that proved rather complex so I opted for
+a more imperative approach.
+
+In my first attempt I used a hiearchy of JS objects with recursive
+functions to calculate the required sums. That worked, but the
+solution proved to be rather messy, so I rewrote it.
+
+Final (and best) approach uses an object to store directory sizes with
+paths being used as keys. When iterating over files all parent directories
+are updated based on the PWD that is stored in a stack-like list.
+
+[Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7)
+
+[Solution](07/)
 
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
@@ -103,7 +129,6 @@ If you feel you can improve any of the posted solutions, feel free to open a PR.
 
 ## Future Ideas
 Bash
-Javascript
 Java
 OCaml
 Haskell

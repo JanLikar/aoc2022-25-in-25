@@ -7,6 +7,7 @@
 - [05 - PHP](#5-php)
 - [06 - Kotlin](#6-kotlin)
 - [07 - Javascript](#7-javascript)
+- [08 - Scala](#8-scala)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -123,6 +124,26 @@ are updated based on the PWD that is stored in a stack-like list.
 
 [Solution](07/)
 
+### 8. Scala
+Interesting problem today. At first I implemented it naively using 4 for loops
+and a 2d matrix to mark visible elements & prevent duplicates
+but when I started working on the second part it became clear I didn't use the
+correct data structure for the task.
+
+I quickly [jumped into Python](08/extras/solution.py) to prototype the algorithm,
+because Scala was not really cooperating with my debugging atempts.
+The error messages were not always clear and I think the docs are lacking.
+
+Nonetheless, I soon found a good solution. I iterate over the trees and slice the grid
+into 4 1D arrays - one for each of the directions. Each of the slices is then reduced
+using an appropriate method for either part of the puzzle.
+
+Scala was my least favorite funtional language - so far, but still not too bad.
+
+[Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8)
+
+[Solution](08/)
+
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
 
@@ -147,7 +168,6 @@ Swift
 R
 Fortran
 D
-Scala
 x86 assembly
 Raku
 F#

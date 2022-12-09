@@ -8,6 +8,7 @@
 - [06 - Kotlin](#6-kotlin)
 - [07 - Javascript](#7-javascript)
 - [08 - Scala](#8-scala)
+- [09 - Java](#9-java)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -138,11 +139,25 @@ Nonetheless, I soon found a good solution. I iterate over the trees and slice th
 into 4 1D arrays - one for each of the directions. Each of the slices is then reduced
 using an appropriate method for either part of the puzzle.
 
-Scala was my least favorite funtional language - so far, but still not too bad.
+Scala was my least favorite funtional language so far, but still not too bad.
 
 [Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8)
 
 [Solution](08/)
+
+### 9. Java
+I haven't used Java since university, but this was a lot of fun and fairly mentally
+stimulating!
+
+I had an issue with the custom implementation of `hashCode` (needed for a HashSet)
+where I accidentally compared `Integers` with `==`, which cause the algorithm to
+return the wrong result. I should have used `.equals`.
+
+The code is relatively verbose, but I guess that's just how it is with Java.
+
+[Day 9: Rope Bridge](https://adventofcode.com/2022/day/9)
+
+[Solution](09/)
 
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
@@ -150,7 +165,6 @@ If you feel you can improve any of the posted solutions, feel free to open a PR.
 
 ## Future Ideas
 Bash
-Java
 OCaml
 Haskell
 Elm

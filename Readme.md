@@ -21,7 +21,7 @@ don't hold it against me if I butcher them colossally.
 
 ## 25 Days
 ### 1. Python
-Python is an excelent fit for solving tasks like these and
+Python is an excellent fit for solving tasks like these and
 I figured I should start with a language I'm actually familiar
 with.
 
@@ -30,7 +30,8 @@ and reducers to calculate the results. In most cases I would
 prefer list comprehensions to using `map`, but in this case
 it fits perfectly.
 
-What can I say... Python is my primary language and I love it dearly, so this was not a challenge at all.
+What can I say... Python is my primary language and I love it dearly,
+so this was not a challenge at all.
 
 [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1)
 
@@ -39,7 +40,7 @@ What can I say... Python is my primary language and I love it dearly, so this wa
 ### 2. Clojure
 As I don't have any real-world experience with lisps, I expected a decent Clojure solution would be harder for me to implement.
 
-I was pleasently surprised - Clojure proved extremely expressive and nice to work with.
+I was pleasantly surprised - Clojure proved extremely expressive and nice to work with.
 
 Converting my first PoC, which looked fairly similar to
 what an imperative solution would look like,

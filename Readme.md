@@ -9,6 +9,8 @@
 - [07 - Javascript](#7-javascript)
 - [08 - Scala](#8-scala)
 - [09 - Java](#9-java)
+- [10 - Bash](#10-bash)
+
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -160,15 +162,21 @@ The code is relatively verbose, but I guess that's just how it is with Java.
 
 [Solution](09/)
 
+### 10. Bash
+Bash can be a pain, but this wasn't too bad.
+
+[Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10)
+
+[Solution](10/)
+
+
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
 
 
 ## Future Ideas
-Bash
 OCaml
 Haskell
-Elm
 Rust
 Go
 C++
@@ -181,8 +189,6 @@ Scheme
 Matlab
 Swift
 R
-Fortran
 D
-x86 assembly
 Raku
 F#

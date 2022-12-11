@@ -25,7 +25,6 @@ tick () {
     if [[ $(((cycle - 20) % 40)) == 0 ]]; then
         sig=$((signal + cycle * x))
     fi
-
 }
 
 x=1

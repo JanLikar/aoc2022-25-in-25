@@ -10,6 +10,7 @@
 - [08 - Scala](#8-scala)
 - [09 - Java](#9-java)
 - [10 - Bash](#10-bash)
+- [11 - Raku](#11-raku)
 
 
 In each of the languages I tried to follow the best practices to
@@ -169,6 +170,21 @@ Bash can be a pain, but this wasn't too bad.
 
 [Solution](10/)
 
+### 11. Raku
+I have no experience with Perl or Raku, so this took me a very long
+time to implement.
+
+Raku seems like a very powerful language with lots of obscure features
+which can be misused in many creative ways.
+
+Although I probably won't be using Raku for any serious purpose anytime soon,
+I must say having a built in way of specyfing the grammar and using it to parse
+the input was very cool.
+
+[Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11)
+
+[Solution](11/)
+
 
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
@@ -190,5 +206,4 @@ Matlab
 Swift
 R
 D
-Raku
 F#

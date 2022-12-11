@@ -1,17 +1,17 @@
 my @primes = (2, 3, 5, 7, 11, 13, 17, 19);
-my $PRIMES_PRODUCT = @primes.reduce(&[*]);
+my $PRIMES_PRODUCT = [*] @primes;
 
 
 grammar Monkeys {
-    rule  TOP  { \n* (<monkey>)* }
+    rule  TOP  { (<monkey>)* }
 
     rule monkey {
-        <header>\n
-        <items>\n?
-        <operation>\n?
-        <test>\n?
-        <if_true>\n?
-        <if_false>\n?
+        <header>
+        <items>
+        <operation>
+        <test>
+        <if_true>
+        <if_false>
     }
 
     token header { "Monkey "\d":" }
@@ -68,7 +68,7 @@ sub monkey_business($rounds = 20, $divide_by_3 = True) {
 
     load_monkeys(@monkeys, @items, @inspection_counts);
 
-    for 0..($rounds - 1) -> $round {
+    for ^$rounds -> $round {
         for @monkeys.kv -> $i, $monkey {
             for @items[$i].keys -> $j {
                 @inspection_counts[$i] += 1;
@@ -77,7 +77,7 @@ sub monkey_business($rounds = 20, $divide_by_3 = True) {
                 my $operand;
 
                 if $monkey<operand> eq "old" {
-                $operand = $item;
+                    $operand = $item;
                 }
                 else {
                     $operand = $monkey<operand>.Int;
@@ -103,9 +103,7 @@ sub monkey_business($rounds = 20, $divide_by_3 = True) {
         }
     }
 
-    my ($l1, $l2) = @inspection_counts.sort.tail(2);
-    say $l1 * $l2;
-
+    say [*] @inspection_counts.sort.tail(2);
 }
 
 monkey_business;

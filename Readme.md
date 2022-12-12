@@ -11,7 +11,7 @@
 - [09 - Java](#9-java)
 - [10 - Bash](#10-bash)
 - [11 - Raku](#11-raku)
-
+- [12 - C++](#12-c)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -184,6 +184,23 @@ the input was very cool.
 [Day 11: Monkey in the Middle](https://adventofcode.com/2022/day/11)
 
 [Solution](11/)
+
+
+### 12. C++
+Graph search problem forced me to try some built-in data structures from
+STL, which was interesting. They're powerful, but perhaps have slightly
+dated APIs.
+
+The language itself is verbose and confusing at times, but it made me
+appreciate the improvement C++ brought over rudimentary features of C.
+
+I had a major problem, which was a huge pain to debug, because I forgot
+how C/C++ handle unsigned ints in expressions with (-)
+(hint: no automatic casting, underflows are possible).
+
+[Day 12:](https://adventofcode.com/2022/day/12)
+
+[Solution](12/)
 
 
 ## Contributing

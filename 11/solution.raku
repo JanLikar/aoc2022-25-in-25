@@ -89,9 +89,9 @@ sub monkey_business($rounds = 20, $divide_by_3 = True) {
                     $item = $item div 3;
                 }
 
-                $item = $item mod $PRIMES_PRODUCT;
+                $item = $item % $PRIMES_PRODUCT;
                 
-                if $item mod $monkey<test> == 0 {
+                if $item %% $monkey<test> {
                     @items[$monkey<if_true>].push($item);
                 }
                 else {

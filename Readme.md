@@ -12,6 +12,7 @@
 - [10 - Bash](#10-bash)
 - [11 - Raku](#11-raku)
 - [12 - C++](#12-c)
+- [13 - Python](#13-python)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -198,9 +199,18 @@ I had a major problem, which was a huge pain to debug, because I forgot
 how C/C++ handle unsigned ints in expressions with (-)
 (hint: no automatic casting, underflows are possible).
 
-[Day 12:](https://adventofcode.com/2022/day/12)
+[Day 12:  Hill Climbing Algorithm](https://adventofcode.com/2022/day/12)
 
 [Solution](12/)
+
+
+### 13. Python
+Yes, Python again, because I didn't have enough time for using
+something else. I will fix this ASAP.
+
+[Day 13: Distress Signal](https://adventofcode.com/2022/day/13)
+
+[Solution](13/)
 
 
 ## Contributing

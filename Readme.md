@@ -218,9 +218,8 @@ something else. I will fix this ASAP.
 I was positively surprised by D's expressiveness and ease of use.
 Certainly a very nice programming language.
 
-I don't exactly know in what cases it would be preferred over Rust or Go,
+It isn't entirely clear to me in what cases it would be preferred over Rust or Go,
 but it's certainly a strong contender.
-
 
 [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)
 

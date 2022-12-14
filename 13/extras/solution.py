@@ -31,12 +31,48 @@ def cmp(left, right):
             return c
     return 0 
 
+
+def parse(expr):
+    stack = []
+    current = []
+
+    parsing_number = False
+
+    for char in expr:
+        if parsing_number and not char.isdigit():
+            number = int("".join(current))
+            current = stack.pop()
+            current.append(number)
+            parsing_number = False
+
+        if char.isdigit():
+            if not parsing_number:
+                parsing_number = True
+                stack.append(current)
+                current = []
+            current.append(char)
+        elif char == "[":
+            stack.append(current)
+            current = []
+        elif char == "]":
+            tmp = current
+            current = stack.pop()
+            current.append(tmp)
+
+
+    return current[0]
+
+
 def parse_lines(lines):
     for line in lines:
         if len(line) == 0:
             continue
 
-        yield ast.literal_eval(line)
+        # Too easy!
+        # yield ast.literal_eval(line)
+
+        yield parse(line)
+
 
 lines = list(parse_lines(l.strip() for l in open("input.txt").readlines()))
 

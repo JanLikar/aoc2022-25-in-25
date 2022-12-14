@@ -13,6 +13,7 @@
 - [11 - Raku](#11-raku)
 - [12 - C++](#12-c)
 - [13 - Python](#13-python)
+- [14 - D](#14-d)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -213,6 +214,19 @@ something else. I will fix this ASAP.
 [Solution](13/)
 
 
+### 14. D
+I was positively surprised by D's expressiveness and ease of use.
+Certainly a very nice programming language.
+
+I don't exactly know in what cases it would be preferred over Rust or Go,
+but it's certainly a strong contender.
+
+
+[Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)
+
+[Solution](14/)
+
+
 ## Contributing
 If you feel you can improve any of the posted solutions, feel free to open a PR.
 
@@ -222,7 +236,6 @@ OCaml
 Haskell
 Rust
 Go
-C++
 Perl
 Julia
 C#
@@ -232,5 +245,4 @@ Scheme
 Matlab
 Swift
 R
-D
 F#

@@ -14,6 +14,7 @@
 - [12 - C++](#12-c)
 - [13 - Python](#13-python)
 - [14 - D](#14-d)
+- [15 - Perl](#15-perl)
 
 In each of the languages I tried to follow the best practices to
 the best of my knowledge and to succinctly solve the problem at
@@ -218,12 +219,32 @@ something else. I will fix this ASAP.
 I was positively surprised by D's expressiveness and ease of use.
 Certainly a very nice programming language.
 
-It isn't entirely clear to me in what cases it would be preferred over Rust or Go,
-but it's certainly a strong contender.
+It isn't entirely clear to me in what cases it would be preferred over Rust or Go, but it's certainly a strong contender.
 
 [Day 14: Regolith Reservoir](https://adventofcode.com/2022/day/14)
 
 [Solution](14/)
+
+
+### 15. Perl
+I don't want to bash a language I don't actually know, but I can
+say that using Perl felt like a chore. Personally, I found Raku
+to be nicer and more intuitive.
+
+I fully understand that Perl used to be very important for various
+scripting tasks, but today it just feels dated.
+
+[Day 15: Beacon Exclusion Zone](https://adventofcode.com/2022/day/15)
+
+[Solution](15/)
+
+
+### 16.
+
+
+[Day 16: ](https://adventofcode.com/2022/day/16)
+
+[Solution](16/)
 
 
 ## Contributing
@@ -235,7 +256,6 @@ OCaml
 Haskell
 Rust
 Go
-Perl
 Julia
 C#
 Ruby
@@ -245,3 +265,4 @@ Matlab
 Swift
 R
 F#
+Nim

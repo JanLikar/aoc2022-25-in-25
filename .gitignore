@@ -3,3 +3,10 @@ devenv.yaml
 devenv.nix
 .envrc
 .vscode/
+.gitignore
+*.jar
+*.class
+solution
+solution.o
+venv
+__pycache__
